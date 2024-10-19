@@ -22,7 +22,7 @@ class ProjectUrl extends StatelessWidget {
                     topLeft: Radius.circular(16),
                     topRight: Radius.circular(16)),
               ),
-              child: Text(
+              child: const Text(
                 'Projects ',
                 style: TextStyle(
                     color: Colors.white,
@@ -46,7 +46,7 @@ class ProjectUrl extends StatelessWidget {
                       SizedBox(width: 60, child: Text("playstore")),
                       Icon(Icons.play_arrow),
                       SizedBox(
-                        width: 5,
+                        width: 5.w,
                       ),
                       Flexible(
                         child: GestureDetector(

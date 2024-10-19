@@ -115,7 +115,7 @@ class ViewResume extends StatelessWidget {
                             fontWeight: pw.FontWeight.bold)),
                     pw.SizedBox(height: 10),
                     pw.Text(
-                        'Currently, I am working as a senior software engineer as part of the frontend team, developing both mobile and web applications using the Flutter framework, creating dynamic user interfaces, integrating APIs, and ensuring app performance and responsiveness. I am dedicated to delivering high-quality, user-friendly solutions that meet both business and user needs.',
+                        'Currently, I am working as a Sr Software Engineer Flutter M as part of the frontend team, developing both mobile and web applications using the Flutter framework, creating dynamic user interfaces, integrating APIs, and ensuring app performance and responsiveness. I am dedicated to delivering high-quality, user-friendly solutions that meet both business and user needs.',
                         style: pw.TextStyle(font: font, fontSize: 12)),
                     pw.SizedBox(height: 10),
                     pw.Divider(thickness: 1.0),
@@ -125,6 +125,101 @@ class ViewResume extends StatelessWidget {
                             font: font,
                             fontSize: 15,
                             fontWeight: pw.FontWeight.bold)),
+                    pw.SizedBox(height: 10),
+                    pw.Row(
+                        mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+                        children: [
+                          pw.Text('CitiusTech',
+                              style: pw.TextStyle(
+                                  font: font,
+                                  fontSize: 12,
+                                  fontBold: pw.Font.courierBold(),
+                                  fontWeight: pw.FontWeight.bold)),
+                          pw.Text('Oct 2024 - Current',
+                              style: pw.TextStyle(
+                                  font: font,
+                                  fontSize: 12,
+                                  fontBold: pw.Font.courierBold(),
+                                  fontWeight: pw.FontWeight.bold))
+                        ]),
+                    pw.SizedBox(height: 5),
+                    pw.Row(
+                        mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+                        children: [
+                          pw.Text('Sr Software Engineer Flutter M',
+                              style: pw.TextStyle(
+                                  font: font,
+                                  fontSize: 12,
+                                  fontItalic: pw.Font.courierOblique(),
+                                  fontStyle: pw.FontStyle.italic)),
+                          pw.Text('Navi Mumbai, Maharashtra',
+                              style: pw.TextStyle(
+                                  font: font,
+                                  fontSize: 12,
+                                  fontItalic: pw.Font.courierOblique(),
+                                  fontStyle: pw.FontStyle.italic))
+                        ]),
+                    pw.SizedBox(height: 5),
+                    pw.Text(
+                        '\u2022 Good understanding of difference between Flutter & Dart',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal)),
+                    pw.SizedBox(height: 5),
+                    pw.Text(
+                        '\u2022 Developed Widget, UI Elements, Grid & other components of Flutter',
+                        style: pw.TextStyle(
+                          font: font,
+                          fontSize: 12,
+                          fontWeight: pw.FontWeight.normal,
+                        ),
+                        softWrap: true),
+                    pw.SizedBox(height: 5),
+                    pw.Text('\u2022 Created Platform Channel & Platform views',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal),
+                        softWrap: true),
+                    pw.SizedBox(height: 5),
+                    pw.Text('\u2022 Created database like hive, sqlite',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal),
+                        softWrap: true),
+                    pw.SizedBox(height: 5),
+                    pw.Text(
+                        '\u2022 created and upgraded custom packages or plugins',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal),
+                        softWrap: true),
+                    pw.SizedBox(height: 5),
+                    pw.Text('\u2022 created Web Services integrations',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal),
+                        softWrap: true),
+                    pw.SizedBox(height: 5),
+                    pw.Text(
+                        '\u2022 Code using version management control system',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal),
+                        softWrap: true),
+                    pw.SizedBox(height: 5),
+                    pw.Text(
+                        '\u2022 Took responsibility & ownership in the team’s work, good communication ',
+                        style: pw.TextStyle(
+                            font: font,
+                            fontSize: 12,
+                            fontWeight: pw.FontWeight.normal),
+                        softWrap: true),
                     pw.SizedBox(height: 10),
                     pw.Row(
                         mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,

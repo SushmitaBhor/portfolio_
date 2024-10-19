@@ -15,20 +15,6 @@ class About extends StatelessWidget {
           RichText(
               text: TextSpan(
                   text:
-                      '\u2022 I\u0027m currently looking for opportunity for ',
-                  style: Theme.of(context).textTheme.labelLarge,
-                  children: [
-                TextSpan(
-                  text: 'Flutter developer position',
-                  style: Theme.of(context).textTheme.titleSmall,
-                )
-              ])),
-          SizedBox(
-            height: 20,
-          ),
-          RichText(
-              text: TextSpan(
-                  text:
                       '\u2022 I\u0027ve designed and developed high-quality applications using',
                   style: Theme.of(context).textTheme.labelLarge,
                   children: [
@@ -55,12 +41,39 @@ class About extends StatelessWidget {
           ),
           RichText(
               text: TextSpan(
-                  text: '\u2022 I\u0027ve collaborated and',
+                  text: '\u2022 I\u0027ve hands on experience in',
                   style: Theme.of(context).textTheme.labelLarge,
                   children: [
                 TextSpan(
                   text:
-                      ' communiated with designer, project manager and other stakeholders',
+                      ' Widget, UI Elements, Grid & other components of Flutter',
+                  style: Theme.of(context).textTheme.titleSmall,
+                )
+              ])),
+          SizedBox(
+            height: 20,
+          ),
+          RichText(
+              text: TextSpan(
+                  text: '\u2022 I\u0027ve ability to',
+                  style: Theme.of(context).textTheme.labelLarge,
+                  children: [
+                TextSpan(
+                  text:
+                      ' Taking responsibility & ownership in the team’s work, good communication',
+                  style: Theme.of(context).textTheme.titleSmall,
+                )
+              ])),
+          SizedBox(
+            height: 20,
+          ),
+          RichText(
+              text: TextSpan(
+                  text: '\u2022 I\u0027ve participated',
+                  style: Theme.of(context).textTheme.labelLarge,
+                  children: [
+                TextSpan(
+                  text: ' Agile process',
                   style: Theme.of(context).textTheme.titleSmall,
                 )
               ])),
@@ -74,6 +87,20 @@ class About extends StatelessWidget {
                   children: [
                 TextSpan(
                   text: ' participate in planning, reviewing, coding',
+                  style: Theme.of(context).textTheme.titleSmall,
+                )
+              ])),
+          SizedBox(
+            height: 20,
+          ),
+          RichText(
+              text: TextSpan(
+                  text: '\u2022 I\u0027ve ability to',
+                  style: Theme.of(context).textTheme.labelLarge,
+                  children: [
+                TextSpan(
+                  text:
+                      ' proactively & collaboratively participate in problem solving skills.',
                   style: Theme.of(context).textTheme.titleSmall,
                 )
               ])),
